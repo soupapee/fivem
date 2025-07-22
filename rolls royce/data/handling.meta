@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CHandlingDataMgr>
+  <HandlingData>
+    <Item type="CHandlingData">
+      <handlingName>TIFFANY_MANSORY_GODMODE</handlingName>
+      <fMass value="1500.000000" /> <!-- Poids plume pour accélération de F1 -->
+      <fInitialDragCoeff value="1.000000" /> <!-- Aérodynamisme = missile -->
+      <fPercentSubmerged value="50.000000" /> <!-- Flotte presque pas -->
+      <vecCentreOfMassOffset x="0.000000" y="0.000000" z="-1.000000" /> <!-- Collée au sol -->
+      <vecInertiaMultiplier x="0.500000" y="0.500000" z="0.500000" /> <!-- Réactivité de kart -->
+      
+      <!-- MOTEUR DÉMENTIEL -->
+      <fDriveBiasFront value="0.000000" /> <!-- Propulsion arrière pour drift contrôlé -->
+      <nInitialDriveGears value="1" /> <!-- Boîte unique (vitesse max directe) -->
+      <fInitialDriveForce value="5.000000" /> <!-- Accélération de fusée -->
+      <fDriveInertia value="0.300000" /> <!-- Réponse instantanée -->
+      <fClutchChangeRateScaleUpShift value="20.000000" />
+      <fClutchChangeRateScaleDownShift value="20.000000" />
+      <fInitialDriveMaxFlatVel value="600.000000" /> <!-- 600 km/h LOL -->
+      
+      <!-- FREINAGE MAGIQUE -->
+      <fBrakeForce value="10.000000" /> <!-- Freinage ABS-like -->
+      <fBrakeBiasFront value="0.450000" />
+      <fHandBrakeForce value="0.000000" /> <!-- Pas de frein à main (inutile) -->
+      
+      <!-- DIRECTION ULTRA-PRÉCISE -->
+      <fSteeringLock value="15.000000" /> <!-- Direction hyper sensible -->
+      
+      <!-- TRACTION = COLLÉE À LA ROUTE -->
+      <fTractionCurveMax value="10.000000" />
+      <fTractionCurveMin value="9.500000" />
+      <fTractionCurveLateral value="50.000000" /> <!-- ZERO dérapage -->
+      <fTractionSpringDeltaMax value="0.000000" />
+      <fLowSpeedTractionLossMult value="0.000000" /> <!-- Pas de patinage -->
+      <fCamberStiffnesss value="0.000000" />
+      <fTractionBiasFront value="0.500000" /> <!-- 50/50 parfait -->
+      <fTractionLossMult value="0.000000" /> <!-- Adhérence infinie -->
+      
+      <!-- SUSPENSIONS IMMORTELLES -->
+      <fSuspensionForce value="10.000000" />
+      <fSuspensionCompDamp value="10.000000" />
+      <fSuspensionReboundDamp value="10.000000" />
+      <fSuspensionUpperLimit value="0.000000" /> <!-- Aucun rebond -->
+      <fSuspensionLowerLimit value="0.000000" />
+      <fSuspensionRaise value="0.000000" />
+      <fSuspensionBiasFront value="0.500000" />
+      <fAntiRollBarForce value="5.000000" /> <!-- Zéro roulis -->
+      <fAntiRollBarBiasFront value="0.500000" />
+      <fRollCentreHeightFront value="0.000000" />
+      <fRollCentreHeightRear value="0.000000" />
+      
+      <!-- INVINCIBLE -->
+      <fCollisionDamageMult value="0.000000" /> <!-- Incassable -->
+      <fWeaponDamageMult value="0.000000" />
+      <fDeformationDamageMult value="0.000000" />
+      <fEngineDamageMult value="0.000000" />
+      
+      <!-- OPTIONS EXTRÊMES -->
+      <fPetrolTankVolume value="999.000000" /> <!-- Réservoir infini -->
+      <fOilVolume value="999.000000" />
+      <nMonetaryValue value="99999999" />
+      <AIHandling>RACING</AIHandling>
+      
+      <!-- PHYSIQUE DE L'ESPACE -->
+      <SubHandlingData>
+        <Item type="CCarHandlingData">
+          <fBackEndPopUpCarImpulseMult value="0.000000" /> <!-- Impossible de décoller -->
+        </Item>
+      </SubHandlingData>
+    </Item>
+  </HandlingData>
+</CHandlingDataMgr>
