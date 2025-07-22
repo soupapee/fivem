@@ -3,7 +3,7 @@
   <HandlingData>
     <Item type="CHandlingData">
       <handlingName>TIFFANY_MANSORY_GODMODE</handlingName>
-      <fMass value="1500.000000" /> <!-- Poids plume pour accélération de F1 -->
+      <fMass value="7000.000000" /> <!-- Poids plume pour accélération de F1 -->
       <fInitialDragCoeff value="1.000000" /> <!-- Aérodynamisme = missile -->
       <fPercentSubmerged value="50.000000" /> <!-- Flotte presque pas -->
       <vecCentreOfMassOffset x="0.000000" y="0.000000" z="-1.000000" /> <!-- Collée au sol -->
